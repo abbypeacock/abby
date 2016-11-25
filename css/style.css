@@ -8,7 +8,7 @@ img { max-width: 100%; }
 nav { height: 64px; padding-top: 24px; display: none;}
 
 #nav-links { max-width: 1200px; margin: 0 auto; max-width: 540px; text-align: center; }
-#nav-links a { line-height: 64px; }
+
 #nav-links::before, #nav-links::after {
 	content: '';
 	display: table;
@@ -20,9 +20,11 @@ nav { height: 64px; padding-top: 24px; display: none;}
 	text-decoration: none;
 	font-size: 16px;
 	float: left;
-	padding: 0 16px;
+	line-height: 1;
+	padding: 16px 8px;
 }
-#nav-links a:first-child { margin-left: -16px; }
+
+#nav-links a:first-child { margin-left: -8px; }
 
 
 
