@@ -168,6 +168,11 @@ body.hidden { width: 100%; height: 100%; }
 #age { background-color: #f7f7f7; }
 .hidden #age { display: flex; justify-content: center; overflow-y: scroll; align-items: top; position: fixed; bottom: 0; top: 0; left: 0; right: 0; box-sizing: border-box; padding-top: 20%;}
 
+#age .small { font-size: 1.2rem; line-height: 1.2; } 
+
+@media (max-width: 540px) {
+#age h1 { font-size: 5.0rem; line-height: 1; }
+}
 
 
 
