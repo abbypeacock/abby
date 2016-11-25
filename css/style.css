@@ -166,7 +166,7 @@ body.hidden { width: 100%; height: 100%; }
 .hidden #content,
 #age { display: none; }
 #age { background-color: #f7f7f7; }
-.hidden #age { display: flex; justify-content: center; overflow-y: scroll; align-items: top; position: fixed; bottom: 0; top: 0; left: 0; right: 0; box-sizing: border-box; padding: 20%; 0}
+.hidden #age { display: flex; justify-content: center; overflow-y: scroll; align-items: top; position: fixed; bottom: 0; top: 0; left: 0; right: 0; box-sizing: border-box; padding: 0 20%;}
 
 #age .small { font-size: 1.2rem; line-height: 1.2; } 
 .external-image-links { padding-bottom: 4.8rem; display: flex; justify-content: space-around; align-items: center;}
